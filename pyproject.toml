@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "encrypto"
+version = "1.0.0"
+authors = [
+  { name="Brian Musakwa", email="digreatbrian@gmail.com" },
+]
+description = "A simple module to encrypt and decrypt data using a secret keys/passcodes"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU LESSER GENERAL PUBLIC LICENSE",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/digreatbrian/encrypto"
+"Bug Tracker" = "https://github.com/digreatbrian/encrypto/issues"
